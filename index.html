@@ -140,7 +140,7 @@
           aventures de l’homme chauve-souris en 1940. Tantôt ennemie tantôt
           alliée la jeune femme fatale fera tourner la tête de Batman à maintes
           reprises. Du côté de la police, Bruce pourra compter sur l’aide
-          infaillible de James Gordon, “Jim”, qui désire lui aussi nettoyer sa
+          infaillible de James Gordon,“Jim”, qui désire lui aussi nettoyer sa
           ville de la criminalité qui y règne.
         </p>
         <div class="card-img">
@@ -151,6 +151,7 @@
             />
             <h3>Alfred Pennyworth - Michael Cain (2006 - 2008 - 2012)</h3>
           </div>
+
           <div class="card">
             <img src="Assets/Illustrations/Bathome8.png" alt="Catwoman" />
             <h3>Catwoman - Zoé Kravitz (2008)</h3>
@@ -211,7 +212,8 @@
       <!-- Section 5 contact -->
       <section id="contact">
         <h2>PRENONS CONTACT</h2>
-        <div class="contact">
+        <!-- Email section -->
+        <div class="email">
           <label for="adresse_email">ADRESSE EMAIL</label><br />
           <input
             type="email"
@@ -222,6 +224,7 @@
           />
           <br />
           <br />
+          <!-- Newsletter section -->
           <div class="newsletter">
             <label for="newsletter">NEWSLETTER</label><br />
             <p>
@@ -230,9 +233,84 @@
               <input type="checkbox" id="newsletter" name="newsletter" />
             </p>
           </div>
+          <!-- Newsletter Options Section -->
+          <div class="newsletter-options">
+            <p>
+              Choisissez la fréquence à laquelle vous souhaitez recevoir votre
+              newsletter :
+            </p>
+            <select id="frequency" name="frequency">
+              <option value="weekly">Hebdomadaire</option>
+              <option value="monthly">Mensuelle</option>
+              <option value="quarterly">Trimestrielle</option>
+            </select>
+          </div>
+          <br />
+
+          <!-- Text Input Section -->
+          <div class="text-input">
+            <input
+              type="text"
+              id="news_input"
+              name="news_input"
+              placeholder="Souhaitez-vous recevoir des news"
+            />
+          </div>
+          <!--  Button section -->
+          <div class="buttons">
+            <button type="button" class="btn">Des films</button>
+            <button type="button" class="btn">Des comics</button>
+            <button type="button" class="btn">De tout</button>
+          </div>
+        </div>
+
+        <!-- Comment Section -->
+        <div class="comment-section">
+          <input
+            type="text"
+            id="comment"
+            placeholder="Laissez un commentaire pour la communauté"
+          />
+          <br />
+          <button type="button" class="confirm-btn">CONFIRMER</button>
+        </div>
+      </section>
+      <!-- Réplique section -->
+      <section class="quote-section">
+        <div class="quote-left">
+          <img src="Assets/Logos/icon_guillemets_1.png" alt="icon-guillemets" />
+        </div>
+        <blockquote>
+          <p>
+            « La seule façon raisonnable de vivre en ce bas monde, c'est en
+            dehors des règles. »
+          </p>
+          <cite
+            >The Dark Knight : Le Chevalier Noir - Le Joker à Batman
+            (2008)</cite
+          >
+        </blockquote>
+        <div class="quote-right">
+          <img src="Assets/Logos/icon_guillemets_2.png" alt="icon-guillemets" />
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <footer>
+        <p>
+          <img src="Assets/Logos/icon_WB.png" alt="icon_WB" />
+          Ce projet respecte l’univers cinématographique des films Batman
+          récents. Version Nolan & Snyder & Reeves
+        </p>
+        <div class="logos">
+          <img src="Assets/Logos/logo_sayna_white.png" alt="logo sayna" />
+          <img src="Assets/Logos/icon_x.png" alt=" icon_x" />
+          <img src="Assets/Logos/icon_DC.png" alt="icon_DC" />
+          <img src="Assets/Logos/icon_facebook.png" alt="logo facebook" />
+          <img src="Assets/Logos/icon_ig.png" alt="logo instagram" />
+          <img src="Assets/Logos/icon_tw.png" alt="logo twitter" />
+        </div>
+      </footer>
+    </footer>
   </body>
 </html>

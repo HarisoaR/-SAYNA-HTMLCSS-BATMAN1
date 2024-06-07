@@ -1,9 +1,21 @@
 
+
+
 html, body {
     margin: 0;
     padding: 0;
+   
   }
   body{
     background: #383333;
+    font-family: "Rajdhani";
+  }
+  header{
+    background-image: url(Assets/Illustrations/Bathome1.png);
+    background-size: cover;
+    background-position: center;
+  }
+  h1{
+    font-family: 'Rajdhani',sans-seri;
   }
   
