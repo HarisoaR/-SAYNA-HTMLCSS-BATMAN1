@@ -4,18 +4,62 @@
 html, body {
     margin: 0;
     padding: 0;
+    background: #0D0E09;
    
   }
-  body{
-    background: #383333;
-    font-family: "Rajdhani";
-  }
-  header{
-    background-image: url(Assets/Illustrations/Bathome1.png);
-    background-size: cover;
-    background-position: center;
-  }
   h1{
-    font-family: 'Rajdhani',sans-seri;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 36px;
   }
+  button{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+  }
+  
+  /* .space-grotesk-<uniquifier> {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  } */
+  h2{
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 12px;
+  }
+  h3{
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+    font-size: 22px;
+  }
+  p{
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+    font-size: 18px;
+  }
+  .txt{
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+    font-size: 12px;
+  }
+  
+ 
+
+
+  
+ 
+  
+  
   
