@@ -4,8 +4,10 @@
 html, body {
     margin: 0;
     padding: 0;
-    background: #0D0E09;
    
+  }
+  img{
+    background-color: black;
   }
   h1{
     font-family: "Rajdhani", sans-serif;
