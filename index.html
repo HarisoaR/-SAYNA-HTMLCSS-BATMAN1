@@ -246,14 +246,14 @@
         <h2>MULTIMÉDIA</h2>
         <!-- bloc de contenu mulimédia -->
         <button class="nav-button" id="prev-button">
-          <img src="Assets/Logos/icon_flèche_1.png" alt="Previous" />
+          <img src="Assets/Logos/icon_flèche_1.png" alt="Previous button" />
         </button>
         <div class="content-block">
           <img src="Assets/Illustrations/Bathome_ba1.png" alt="batman begins" />
           <div class="text-block">
             <h3>ACTION, ADVENTURE</h3>
             <h4>Batman Begins</h4>
-            <p><strong>IMDB : 8.2</strong></p>
+            <p><span>IMDB : 8.2</span></p>
             <p class="txt">
               Le jeune Bruce Wayne assiste impuissant au meurtre de ses parents.
               Profondément traumatisé, il grandit obnubilé par un désir de
@@ -286,69 +286,43 @@
       <!-- Section 5 contact -->
       <section id="contact">
         <h2>PRENONS CONTACT</h2>
-        <!-- Email section -->
-        <div class="email">
-          <label for="adresse_email">ADRESSE EMAIL</label><br />
+        <form action="">
+          <label for="email">ADRESSE EMAIL</label>
+          <br>
           <input
             type="email"
             id="adresse_email"
-            placeholder="adresse_email"
+            placeholder="Adresse email"
             name="adresse_email"
             required
           />
-          <br />
-          <br />
-          <!-- Newsletter section -->
-          <div class="newsletter">
-            <label for="newsletter">NEWSLETTER</label><br />
-            <p>
+          <br>
+          <br>
+            <label for="n newsletter">NEWSLETTER</label>
+            <label for=""><p>
               En cochant cette case vous acceptez de recevoir l’actualité
               concernant les aventures de Batman :
-              <input type="checkbox" id="newsletter" name="newsletter" />
-            </p>
+            </p></label>
+            <input type="checkbox">
+            <div>
+              <span> Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter :</span>
+              <span><img src="Assets/Logos/icon_flèche_2.png" alt=""></span>
+            </div>
+            <div>
+              <p>Souhaitez-vous recevoir des news</p>
+            </div>
+            <!--  Button section -->
+            <div class="buttons">
+              <button type="button" class="btn">Des films</button>
+              <button type="button" class="btn">Des comics</button>
+              <button type="button" class="btn">De tout</button>
+            </div>
           </div>
-          <!-- Newsletter Options Section -->
-          <div class="newsletter-options">
-            <p>
-              Choisissez la fréquence à laquelle vous souhaitez recevoir votre
-              newsletter :
-            </p>
-            <select id="frequency" name="frequency">
-              <option value="weekly">Hebdomadaire</option>
-              <option value="monthly">Mensuelle</option>
-              <option value="quarterly">Trimestrielle</option>
-            </select>
-          </div>
-          <br />
-
-          <!-- Text Input Section -->
-          <div class="text-input">
-            <input
-              type="text"
-              id="news_input"
-              name="news_input"
-              placeholder="Souhaitez-vous recevoir des news"
-            />
-          </div>
-          <!--  Button section -->
-          <div class="buttons">
-            <button type="button" class="btn">Des films</button>
-            <button type="button" class="btn">Des comics</button>
-            <button type="button" class="btn">De tout</button>
-          </div>
-        </div>
-
-        <!-- Comment Section -->
-        <div class="comment-section">
-          <input
-            type="text"
-            id="comment"
-            placeholder="Laissez un commentaire pour la communauté"
-          />
-          <br />
-          <button type="button" class="confirm-btn">CONFIRMER</button>
-        </div>
-      </section>
+          <p>MESSAGE</p>
+          <textarea name="" id="" cols="30"placeholder="Laissez un commentaire pour la communauté"></textarea>
+          <input type="submit" value="CONFIRMER">
+        </form>
+    </section>
       <!-- Réplique section -->
       <section class="quote-section">
         <div class="quote-left">
