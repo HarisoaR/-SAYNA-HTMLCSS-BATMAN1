@@ -1,64 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Space+Grotesk:wght@300..700&display=swap');
 
-
-
-html, body {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
    
   }
-  img{
+  body{
     background-color: black;
+    color: white;
+    font-family: 'Space-Grotesk';
+    font-weight:300 ;
+  }
+  :root{
+    --yellow-color:#FFFF00;
+    --yellow-light: #F8F184;
+    --blue-color:#19587D;
+    --red-:#B11313;
+    --black-one:#0D0E09;
+    --black-color:#000000;
+    --white-color:#ffffff;
+    --gray:#C4C4C4;
+
+    
+  }
+  .container{
+    width: 80%;  /* largeur de l'ecran */
+    margin: 0 auto;  /* pour centrer les contenus */
+  
   }
   h1{
-    font-family: "Rajdhani", sans-serif;
-    font-weight: 500;
-    font-style: normal;
+    font-family: 'Rajdhani';
     font-size: 36px;
+    font-weight: 400;
   }
   button{
-    font-family: "Rajdhani", sans-serif;
-    font-weight: 500;
-    font-style: normal;
+    font-family: 'Rajdhani';
     font-size: 20px;
+    font-weight: 400;
   }
   
-  /* .space-grotesk-<uniquifier> {
-    font-family: "Space Grotesk", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-  } */
-  h2{
-    font-family: "Space Grotesk", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 12px;
-  }
-  h3{
-    font-family: "Space Grotesk", sans-serif;
-    font-optical-sizing: auto;
-    font-weight:400;
-    font-style: normal;
-    font-size: 22px;
-  }
-  p{
-    font-family: "Space Grotesk", sans-serif;
-    font-optical-sizing: auto;
-    font-weight:400;
-    font-style: normal;
-    font-size: 18px;
-  }
-  .txt{
-    font-family: "Space Grotesk", sans-serif;
-    font-optical-sizing: auto;
-    font-weight:400;
-    font-style: normal;
-    font-size: 12px;
-  }
+  /* Design de la navigtion */
+nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding:30px 0;
   
- 
+}
+ul{
+  list-style: none;
 
+}
+nav ul li a{
+ color: var(--white-color);
+ font-size: 30px;
+ font-weight: 500;
+ font-family: 'Rajdhani';
+ text-transform: uppercase;
+ text-decoration: none;
+}
+nav ul li a:hover{
+  font-weight: 800;
+  text-decoration: underline;
+}
+ 
+/* Design de la partie hero */
+#hero{
+  background-image: url(./Assets/Illustrations/Bathome1.png);
+height: 800px;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
 
   
  
