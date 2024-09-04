@@ -41,7 +41,7 @@
     font-weight: 400;
   }
   
-  /* Design de la navigtion */
+  /* Design de la navigation */
 nav{
   display: flex;
   flex-direction: row;
@@ -93,7 +93,7 @@ flex-direction: column;
 text-align: center;
 width: 60%;
 margin: 0 auto;
-padding-top: 406px;
+padding-top: 300px;
 }
 p{
   font-size: 22px;
@@ -135,9 +135,10 @@ box-shadow: var(--black-color) 5px 5px 60px;
   align-items: center;
   position: fixed;
   right: 50px;
-  top: 380px;
-  gap: 200px  ;
-
+  top: 300px;
+}
+.scroll .social-media{
+margin-top: 15px;
 }
 
 
