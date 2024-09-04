@@ -146,6 +146,10 @@ margin-top: 15px;
 
 
 /* Design de Batman au ciné */
+h2{
+  font-weight:bold;
+  margin: 30px 0;
+ }
 .card-img{
   display: flex;
   justify-content: space-between;
@@ -158,7 +162,19 @@ figcaption{
   
 }
 
- 
-  
-  
+#batman-cinema, #nemesis, #allies{
+  margin-top: 80px;
+}
+.description{
+  margin-bottom: 82px;
+  text-align: justify;
+  width: 80%;
+}
+
+#Justice-league{
+  margin-top: 150px;
+}
+#Justice-league .container{
+  margin: 0 235px;
+}
   
