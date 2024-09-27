@@ -31,6 +31,7 @@ html{
   .container{
     width: 80%;  /* largeur de l'ecran */
     margin: 0 auto;  /* pour centrer les contenus */
+    border:  2px solid rebeccapurple;
   
   }
   h1{
@@ -172,7 +173,13 @@ h2{
  }
 .card-img{
   display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  align-items: center;
   justify-content: space-between;
+}
+div> .card{
+  width: 304px;
 }
 figcaption{
   display: flex;
