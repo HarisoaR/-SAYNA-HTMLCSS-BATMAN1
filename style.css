@@ -31,8 +31,31 @@ html{
   .container{
     width: 80%;  /* largeur de l'ecran */
     margin: 0 auto;  /* pour centrer les contenus */
+    position: relative;
    
   }
+  .container::before
+  {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:-50px;
+    width: 3px; /* Largeur de la bordure */
+    height:100%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.15) 83.13%, rgba(255, 255, 255, 0) 106.54%);
+}
+
+.container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -50px;
+  width: 3px; 
+  height:100%;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.15) 83.13%, rgba(255, 255, 255, 0) 106.54%);
+}
   h1{
     font-size:2.25rem;
     font-weight: 700;
@@ -207,9 +230,10 @@ figcaption{
 #Justice-league{  
   margin-top: 150px;
 }
-#Justice-league .container{
-  margin: 0 235px;
+#Justice-league  .allies{
+  margin: 0 0 0 100px;
 }
+
 /* Partie multimédia */
 #multimedia .slide-wrapper {
   display: flex;
