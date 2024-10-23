@@ -269,13 +269,14 @@ figcaption{
 #multimedia .slider-content{
   padding:10px 10px 0;
  
-
-
 } 
 #multimedia p{
   font-size: 12px;
   line-height: 16px;
 } 
+#multimedia .yellow{
+  color: var(--yellow-color);
+}
 /* design de la video bande annonce */
 .bande-annonce {
   display: flex;
