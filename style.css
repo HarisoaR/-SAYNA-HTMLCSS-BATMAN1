@@ -25,6 +25,7 @@ html{
     --gradient-white:#EDDEBF;
     --gradient-red:#890008;
     --gray:#C4C4C4;
+    --input-color:#BCBBBD;
 
 
   }
@@ -296,6 +297,7 @@ figcaption{
 #contact{
   background: linear-gradient(214.25deg, rgba(25, 88, 125, 0.336) 6.73%, rgba(237, 222, 191, 0.336) 100.28%);
   padding: 52px 0;
+  font-family: 'Space-Grotesk',sans-serif;
 }
 #contact .form{
   width: 50%;
@@ -311,6 +313,20 @@ figcaption{
 }
 #contact .titre{
   display: block;
-  
+  margin: 22px 0; 
+  font-family: 'Space-Grotesk',sans-serif;
+  font-size:22px ;
+  line-height: 28px;
+  font-weight: 400;
+}
+#contact .form input[type='email']{
+  border: none;
+  outline: none;
+  background: none;
+  width: 100%;
+  color:var(--input-color);
+  border-bottom: 1px solid var(--input-color);
+  font-size: 16px;
+  line-height: 28px;
 }
 
