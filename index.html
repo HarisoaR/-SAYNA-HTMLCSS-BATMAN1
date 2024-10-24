@@ -319,11 +319,10 @@
       </section>
       <!-- Section 5 contact -->
       <section id="contact">
-       <div class="container">
+       <div class="form">
           <h2>PRENONS CONTACT</h2>
           <form action="">
-          <label for="email">ADRESSE EMAIL</label>
-          <br>
+          <label class="titre" for="email">ADRESSE EMAIL</label>
           <input
             type="email"
             id="adresse_email"
@@ -331,29 +330,30 @@
             name="adresse_email"
             required
           />
-          <br>
-          <br>
-            <label for="n newsletter">NEWSLETTER</label>
-            <label for=""><p>
+            <label class="titre" for="newsletter">NEWSLETTER</label>
+            <p>
               En cochant cette case vous acceptez de recevoir l’actualité
               concernant les aventures de Batman :
             </p></label>
             <input type="checkbox">
             <div>
-              <span> Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter :</span>
+              <span class="icon"> Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter :</span>
               <span><img src="Assets/Logos/icon_flèche_2.png" alt=""></span>
             </div>
             <div>
-              <p>Souhaitez-vous recevoir des news</p>
+              <p class="news">Souhaitez-vous recevoir des news</p>
             </div>
             <!--  Button section -->
-            <div class="buttons">
-              <button type="button" class="btn">Des films</button>
-              <button type="button" class="btn">Des comics</button>
-              <button type="button" class="btn">De tout</button>
+            <div class="btn-group">
+              <input type="radio" id="film">
+              <label for="film">Des films</label>
+              <input type="radio" id="comics">
+              <label for="comics">Des comics</label>
+              <input type="radio" id="tout">
+              <label for="tout">De tout</label>
             </div>
           
-          <p>MESSAGE</p>
+          <p class="titre">MESSAGE</p>
           <textarea name="" id="" cols="30"placeholder="Laissez un commentaire pour la communauté"></textarea>
           <input type="submit" value="CONFIRMER">
         </form>
