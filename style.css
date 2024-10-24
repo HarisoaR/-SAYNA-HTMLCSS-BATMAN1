@@ -319,14 +319,46 @@ figcaption{
   line-height: 28px;
   font-weight: 400;
 }
-#contact .form input[type='email']{
+#contact .form input[type='email'], textarea {
+  display: block;
   border: none;
   outline: none;
   background: none;
-  width: 100%;
+  width: 100%; 
   color:var(--input-color);
   border-bottom: 1px solid var(--input-color);
   font-size: 16px;
   line-height: 28px;
 }
+#contact .news{
+  margin: 25px 0;
+  border-bottom: 1px solid var(--input-color);
+  font-size: 16px;
+  color:var(--input-color);
+
+}
+#contact .icon img{
+    transform: rotate(90deg); 
+    width: 24px;
+    height: 24px;
+}
+.btn-group{
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+   
+}
+.btn-group a{
+  cursor: pointer;
+  padding: 10px 28px 10px 28px;
+  border: 1px solid;
+  border-image-source: linear-gradient(276.8deg, #19587D 2.29%, rgba(237, 222, 191, 0.4) 102.15%);
+  border-image-slice: 1;
+  text-decoration: none;
+  color: #F2F2F2;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing:-0.41px ;
+}
+
 
