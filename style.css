@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 html{
   font-size: 16px;
 }
@@ -331,7 +333,7 @@ figcaption{
   line-height: 28px;
 }
 #contact .news{
-  margin: 25px 0;
+  margin: 26px 0;
   border-bottom: 1px solid var(--input-color);
   font-size: 16px;
   color:var(--input-color);
@@ -344,13 +346,14 @@ figcaption{
 }
 .btn-group{
   display: flex;
-  justify-content: space-around;
-  gap: 10px;
-   
+  justify-content:center;
+  gap: 42px;
 }
 .btn-group a{
+  font-family: "Roboto", sans-serif ;
+  font-weight: 700;
   cursor: pointer;
-  padding: 10px 28px 10px 28px;
+  padding:10px 28px;
   border: 1px solid;
   border-image-source: linear-gradient(276.8deg, #19587D 2.29%, rgba(237, 222, 191, 0.4) 102.15%);
   border-image-slice: 1;
@@ -358,7 +361,30 @@ figcaption{
   color: #F2F2F2;
   font-size: 12px;
   line-height: 17px;
-  letter-spacing:-0.41px ;
+  letter-spacing:-0.41px;
+}
+
+.submit-container{
+  text-align: center;
+  margin-top: 43px;
+}
+.submit-container input[type='submit']{
+    padding: 19px 82px;
+    cursor:pointer;
+    outline: none;
+    text-align: center;
+    background: none;
+    border: none;
+    background: linear-gradient(273.81deg, rgba(137, 0, 8, 0.6) 0%, rgba(252, 232, 216, 0.4) 100%);
+    color: var(--white-color);
+    font-size: 20px;
+    letter-spacing: 8;
+    line-height: 25.52px;
+    font-family:'Rajdhani';
+    font-weight: 500;
+
+
+
 }
 
 
