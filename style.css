@@ -37,7 +37,7 @@ html{
     position: relative;
 
   }
-  .container::before
+  /* .container::before
   {
     content: '';
     position: absolute;
@@ -58,7 +58,7 @@ html{
   width: 3px;
   height:100%;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.15) 83.13%, rgba(255, 255, 255, 0) 106.54%);
-} 
+}  */
   h1{
     font-size:2.25rem;
     font-weight: 700;
@@ -383,8 +383,61 @@ figcaption{
     font-family:'Rajdhani';
     font-weight: 500;
 
-
+}
+/* Section citation */
+/* #citations {
+  margin: 90px; 
+  padding: 96px 0;
+  height:285px ;
 
 }
+#citations blockquote {
+text-align: center;
+}
+.quote-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.quote-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+} */
+
+ #citations{
+  margin: 90px 0;
+ } 
+ #citations blockquote{
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  
+ }
+ #citations blockquote .citation-text{
+      font-family:'Space-Grotesk',sans-serif ;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 28px;
+      color: var(--white-color);
+      margin-top: 23px;
+
+ }
+ #citations blockquote cite{
+  display: inline-block;
+  font-size: 14px;
+  font-style: normal;
+  font-family:'Space-Grotesk',sans-serif ;
+  font-weight:  400;
+  line-height: 28px;
+  color: var(--gray);
+  margin: 16px 0; 
+ }
+ #citations .quote-right{
+        float: right;
+ }
+
+
 
 
