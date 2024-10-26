@@ -315,7 +315,7 @@ figcaption{
 }
 #contact .titre{
   display: block;
-  margin: 22px 0; 
+  margin: 22px 0;
   font-family: 'Space-Grotesk',sans-serif;
   font-size:22px ;
   line-height: 28px;
@@ -326,7 +326,7 @@ figcaption{
   border: none;
   outline: none;
   background: none;
-  width: 100%; 
+  width: 100%;
   color:var(--input-color);
   border-bottom: 1px solid var(--input-color);
   font-size: 16px;
@@ -340,7 +340,7 @@ figcaption{
 
 }
 #contact .icon img{
-    transform: rotate(90deg); 
+    transform: rotate(90deg);
     width: 24px;
     height: 24px;
 }
@@ -386,7 +386,7 @@ figcaption{
 }
 /* Section citation */
 /* #citations {
-  margin: 90px; 
+  margin: 90px;
   padding: 96px 0;
   height:285px ;
 
@@ -408,12 +408,12 @@ text-align: center;
 
  #citations{
   margin: 90px 0;
- } 
+ }
  #citations blockquote{
   text-align: center;
   width: 50%;
   margin: 0 auto;
-  
+
  }
  #citations blockquote .citation-text{
       font-family:'Space-Grotesk',sans-serif ;
@@ -432,11 +432,36 @@ text-align: center;
   font-weight:  400;
   line-height: 28px;
   color: var(--gray);
-  margin: 16px 0; 
+  margin: 16px 0;
  }
  #citations .quote-right{
         float: right;
  }
+/* design footer */
+footer{
+  margin-top: 209px;
+}
+footer .text-footer{
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+.text-footer p{
+  font-size: 10px;
+  font-family:'Space-Grotesk',sans-serif ;
+}
+
+footer .logos-footer{
+  text-align: center;
+  margin-top: 34px
+}
+ footer .social-item{
+  padding: 32px;
+}
+
+
+
+
 
 
 
