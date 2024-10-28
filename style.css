@@ -384,27 +384,11 @@ figcaption{
     font-weight: 500;
 
 }
+.submit-container input[type='submit']:hover{
+  background: linear-gradient(273.81deg, #890008 0%, #FCE8D8 100%);
+}
 /* Section citation */
-/* #citations {
-  margin: 90px;
-  padding: 96px 0;
-  height:285px ;
 
-}
-#citations blockquote {
-text-align: center;
-}
-.quote-left {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.quote-right {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-} */
 
  #citations{
   margin: 90px 0;
@@ -452,11 +436,24 @@ footer .text-footer{
 }
 
 footer .logos-footer{
-  text-align: center;
-  margin-top: 34px
+  margin-top: 34px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
 }
- footer .social-item{
-  padding: 32px;
+.logos-footer .logo-sayna{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+ footer .social-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  margin-left:42px ;
+
 }
 
 
