@@ -15,6 +15,7 @@ html{
     color: white;
     font-family: 'Space-Grotesk';
     font-weight:300 ;
+    position: relative;
   }
   :root{
     --yellow-color:#FFFF00;
@@ -31,6 +32,33 @@ html{
 
 
   }
+  .up-border{
+    border-top: 3px solid var(--input-color);
+    position: relative;
+    width: 86%;
+    top: 132px;
+    /* left:6%; */
+    margin: 0 auto;
+  }
+  .left-border{
+    border-top: 3px solid var(--input-color);
+    position: fixed ;
+    transform: rotate(90deg);
+    width: 100%;
+    height: auto;
+    left: -43%;
+  }
+  .right-border{
+    border-top: 3px solid var(--input-color);
+    position: fixed;
+    transform: rotate(90deg);
+    width: 100%;
+    height: auto;
+    right: -43%;
+    }
+ 
+
+
   .container{
     width: 80%;  /* largeur de l'ecran */
     margin: 0 auto;  /* pour centrer les contenus */
@@ -382,7 +410,6 @@ figcaption{
     line-height: 25.52px;
     font-family:'Rajdhani';
     font-weight: 500;
-
 }
 .submit-container input[type='submit']:hover{
   background: linear-gradient(273.81deg, #890008 0%, #FCE8D8 100%);
